@@ -1,0 +1,12 @@
+div{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+app-social{
+    float: right;
+    margin-top: 15px;
+
+}
