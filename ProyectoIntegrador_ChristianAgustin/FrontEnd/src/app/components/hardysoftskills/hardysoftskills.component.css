@@ -1,0 +1,92 @@
+.divv{
+    height: 500px;
+    background: linear-gradient(-45deg, #52a8ee, #9d90ce, #23a6d5, #35534d);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.texto{
+    position: relative;
+left: 600px;
+top: 70px;
+
+}
+
+.imagen{
+    height: 120px;
+}
+
+.html{
+    position: absolute;
+    left: 700px;
+    top: 70%;
+}
+
+.css{
+    left: 500px;
+    top: 70%;
+}
+
+.js{
+ 
+    position: relative;
+    left: 600px;
+    top: 70%;
+}
+
+.eng{
+    position: absolute;
+    right:350px;
+    top: 60%;
+}
+
+.ingles{  
+    font-family: 'Outfit', sans-serif;
+    color: rgb(241, 217, 217);
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #16181b;
+    box-shadow: 0 13px 22px 5px #0d192b
+}
+
+
+.grup{
+    top: 60%;
+    position: absolute;
+    left: 1300px;
+}
+
+.grupal{
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(241, 217, 217);
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #16181b;
+    box-shadow: 0 13px 22px 5px #0d192b
+}

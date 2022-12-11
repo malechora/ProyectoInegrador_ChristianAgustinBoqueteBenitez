@@ -1,0 +1,63 @@
+.divv{
+    height: 600px;
+	background: linear-gradient(-45deg, #9199a0, #817d92, #c9d4d8, #cbdad7);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.imagen{
+	position: relative;
+	top: -60px;
+	left: 800px;
+	height: 440px;
+	width: 430px;
+}
+
+h1{
+	left: 10px;
+	position: relative;
+	top: 60px;
+}
+
+h2{
+	left: 10px;
+	position: relative;
+	top: 60px;
+}
+
+p{
+	left: 10px;
+	position: relative;
+	top: 70px;
+}
+
+img{
+    padding: 1rem;
+    background-color: #16181b;
+    box-shadow:  1px 12px 5px #0d192b
+}

@@ -1,0 +1,42 @@
+
+footer{
+    position: relative;
+left: 600px;
+    color: rgb(119, 118, 118);
+font-size: 14px;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.divv{
+    height: 107px;
+	background: linear-gradient(-45deg, #121213, #0e0d0d, #020202, #121313);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

@@ -1,0 +1,59 @@
+.acerca{
+	position:absolute;
+    text-align: center;
+    top: 300px;
+    width: 340px;
+    left: 400px;
+}
+
+/*estilo de la foto de perfil*/ 
+
+    #fotodeperfil{
+        position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px black;
+    left: 4%;
+    top: 45%;
+    }
+
+
+.nombre{
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    width: 340px;
+    left: 0%;
+}
+
+.divv{
+    height: 400px;
+	background: linear-gradient(-45deg, #c0cbd4, #817d92, #c9d4d8, #cbdad7);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

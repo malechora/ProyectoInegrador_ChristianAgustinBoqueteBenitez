@@ -1,0 +1,12 @@
+img{
+    height: 35px;
+    margin-right: 10px;
+
+}
+
+.social_media_conteiner{
+    margin-right: 0.5cm;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

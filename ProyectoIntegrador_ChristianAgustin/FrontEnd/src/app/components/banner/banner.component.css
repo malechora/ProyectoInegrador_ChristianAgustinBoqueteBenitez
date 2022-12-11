@@ -1,0 +1,40 @@
+.divv{
+    height: 400px;
+	background: linear-gradient(-45deg, #52a8ee, #9d90ce, #23a6d5, #030807);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.bienvenidos{
+	text-decoration:underline;
+	text-indent:10%;
+	text-align:center;
+	position: absolute;
+	left: 700px;
+	top: 110px
+}
